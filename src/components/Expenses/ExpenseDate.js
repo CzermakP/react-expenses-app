@@ -1,4 +1,5 @@
 //rendering the date of the expense
+import React from 'react';
 
 import './ExpenseDate.css';
 
@@ -13,6 +14,6 @@ const ExpenseDate = (props) => {
             <div className="expense-date__day">{day}</div>
             <div className="expense-date__year">{year}</div>
         </div>
-    )
-}
+    );
+};
 export default ExpenseDate;
