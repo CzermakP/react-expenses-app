@@ -34,8 +34,8 @@ const dummyExpenses = [
   },
   {
     id: 'e6',
-    title: 'Udemy: React - A Complete Guide',
-    amount: 159,
+    title: 'Cat food',
+    amount: 30,
     date: new Date(2022, 1, 8),
   },
 ];
@@ -51,7 +51,7 @@ const App = () => {
 
   return (
     <div>
-      <h2 style={{textAlign: 'center', color: "lightgrey"}}>Patrick Czermak's React Expenses WEB APP...(work in progress)</h2>
+      <h2 style={{textAlign: 'center', color: "lightgrey"}}>Patrick Czermak's React Expenses WEB APP</h2>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
